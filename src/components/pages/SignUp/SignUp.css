@@ -1,0 +1,48 @@
+.signup-container{
+    min-height: calc(100vh - 80px);
+}
+
+.signup_card{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin:auto;
+    background-color: #1c2237;
+    border-radius: 20px;
+    align-items: center;
+    width: 70vh;
+    margin-top: 40px;
+}
+
+input, select{
+    border: none;
+    outline: none;
+}
+
+.inputfield {
+    width: 70%;
+    height: 100%;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 0px 0px 16px;
+    border-radius: 25px;
+  }
+
+h1{
+    color: #fff;
+    margin: 12px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 960px){
+    .signup_card{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 90%;
+        background-color: #1c2237;
+        border-radius: 20px;
+        align-items: center;
+    }
+}
